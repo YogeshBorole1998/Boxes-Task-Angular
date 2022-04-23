@@ -1,0 +1,84 @@
+.red {
+  background-color: red;
+  color: red;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  float: left;
+  margin: 15px;
+
+}
+
+.green {
+  background-color: green;
+  color: green;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  float: left;
+  margin: 15px;
+}
+
+.black {
+  background-color: black;
+  color: black;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  float: left;
+  margin: 15px;
+}
+
+.blue {
+  background-color: blue;
+  color: blue;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  float: left;
+  margin: 15px;
+}
+
+.yellow {
+  background-color: yellow;
+  color: yellow;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  float: left;
+  margin: 15px;
+}
+
+.pink {
+  background-color: pink;
+  color: pink;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  float: left;
+  margin: 15px;
+}
+
+.view-blue {
+  color: blue;
+}
+
+.view-green {
+  color: green;
+}
+
+.view-black {
+  color: black;
+}
+
+.view-pink {
+  color: pink;
+}
+
+.view-yellow {
+  color: yellow;
+}
+
+.view-red {
+  color: red;
+}

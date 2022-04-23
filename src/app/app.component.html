@@ -1,0 +1,23 @@
+<h1 style="text-align: center;">Task No : 2</h1>
+<hr>
+
+<div >
+  <table>
+    <tr>
+      <td class="red" (click)="displayColorChange('Red')"></td>
+      <td class="green" (click)="displayColorChange('Green')"></td>
+      <td class="black" (click)="displayColorChange('Black')"></td>
+      <td class="blue" (click)="displayColorChange('Blue')"></td>
+      <td class="yellow" (click)="displayColorChange('Yellow')"></td>
+      <td class="pink" (click)="displayColorChange('Pink')"></td>
+    </tr>
+  </table>
+  <br><br>
+  <div [ngClass]="{'view-blue': color=='Blue', 'view-red': color=='Red', 'view-green': color=='Green',
+       'view-black': color=='Black', 'view-yellow': color=='Yellow','view-pink': color=='Pink' }" *ngIf="color!=''">
+    You have selected {{color}}
+  </div>
+  <div *ngIf="color==''">
+    Select Any Color
+  </div>
+</div>
